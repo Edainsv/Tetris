@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body, #app {
+	width: 100%;
+	min-height: 100vh;
+	background: #1E1E1E;
+}
+
+
+/* Canvas */
+#game_canvas, #left-column, #right-column {
+	min-height: 600px;
+	margin: 0 2%;
+}
+#left-column, #right-column {
+	width: 100px;
+}
+#game_canvas {
+	width: 300px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.case {
+	outline: 1px solid #fff;
+	height: 30px;
+	width: 30px;
+}
+
+
+/* TETROS DESIGN */
+.BAR_TETROS {
+	background: #3BCFDE;
+}
+
+.L_TETROS {
+	background: #F18117;
+}
+
+.LR_TETROS {
+	background: #223FF9
+}
+
+.SQUARE_TETROS {
+	background: #EADF3A;
+}
+
+.S_TETROS {
+	background: #24D12A; 
+}
+
+.Z_TETROS {
+	background: #EF3D2C;
+}
+
+.T_TETROS {
+	background: #A123CD;
+}
